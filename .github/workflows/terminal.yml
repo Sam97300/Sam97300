@@ -1,0 +1,44 @@
+name: regenerate terminal gif
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday, 6am UTC
+  workflow_dispatch:       # lets you trigger it manually from the Actions tab
+  push:
+    paths:
+      - "scripts/generate_terminal.py"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          pip install github-readme-terminal requests
+
+      - name: Generate gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_terminal.py
+
+      - name: Move gif into assets
+        run: mv terminal.gif assets/terminal.gif
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/terminal.gif
+          git diff --staged --quiet || git commit -m "chore: regenerate terminal gif"
+          git push
