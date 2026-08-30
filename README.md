@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/kirokaze.gif" width="560" alt="pixel-art desk scene, gif by KIROKAZE"/>
+<img src="./assets/Desktop.gif" width="560" alt="desk scene, an afternoon repose"/>
 </div>
 
 <br/>
