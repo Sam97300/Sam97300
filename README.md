@@ -10,12 +10,13 @@
 SAM(1)                    Linux User's Manual                    SAM(1)
 
 NAME
-       sam - Linux/FOSS lifer, terminal-first, still earning the
+       Saqib Mhaishale - Linux/FOSS lifer, terminal-first, still earning the
        "systems" part of "systems engineer"
 
 SYNOPSIS
        sam [--track cloud-architect]
            [--target netflix|mubi|criterion|hbomax]
+           [--INTP]
 
 DESCRIPTION
        Diploma in Computer Engineering, 96.59%, 3rd in department.
@@ -53,27 +54,32 @@ ENVIRONMENT
        DISTRO      Fedora / Bazzite this week, ask again next week
 
 INTERESTS
-       Indian auteur cinema (Ray, Kashyap, Banerjee, Zoya Akhtar),
-       Korean/Thai folk horror, esoteric philosophy, Russian
-       literature, music about impermanence rather than romance,
-       and Vir Das reruns for when the above gets to be too much.
+       A decent Cinephile (see my letterboxed),Eastern folk horror,
+       Existentialist pondering & Alternate Philosophies, History Buff, Archeology,
+       Investigating Rabbit roles and Icebergs, Documentaries, Internet horror,
+       Conspiracy Theories, Reading Fiction.
 
-ROADMAP
-       Tails OS & Qubes OS, deeper Linux internals, GCP/AWS/IBM
-       Cloud certs (in progress), HackTheBox/TryHackMe/pwn.college,
-       quantum cloud infrastructure as the long-horizon obsession.
+LEARNING
+       deeper Linux internals, GCP/AWS/IBM, Tails OS & Qubes OS, Tor & I2P protocol
+       Cloud certs (in progress), HackTheBox/TryHackMe/pwn.college, BSD
+       Archeological and Scientific AI ML as a intersection of my passion and pragmatism.
 
 BUGS
        Prone to switching stacks mid-project at 2am when Rust
        looks more interesting than whatever is actually due.
-       Historically pivots to a new field entirely once a problem
-       gets hard -- aware of it, actively working against it.
+       So a little bit of adhd, due to my intense curiosity.
+       but i am self aware enough to not be ignorant of it.
 
 SEE ALSO
        github.com/Sam97300
+       www.linkedin.com/in/saqib-mhaishale-a8626430b
+       https://discord.com/users/sam_97300
+       https://boxd.it/e8qpf
+       https://x.com/Edwin_Jobs
+       https://pin.it/3WzcCYXiv
 
 AUTHOR
-       Saqib "Sam" Mhaishale. Bug reports welcome as GitHub issues.
+       Saqib.A.Mhaishale (SAM). Bug reports welcome as GitHub issues.
 
 SAM(1)                          2026                          SAM(1)
 ```
