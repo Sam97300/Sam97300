@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/kirokaze.gif" width="560" alt="desk scene, an afternoon repose"/>
+<img src="./assets/Desktop.gif" width="600" alt="desk scene, an afternoon repose"/>
 </div>
 
 <br/>
@@ -82,6 +82,6 @@ AUTHOR
 SAM(1)                          2026                          SAM(1)
 ```
 <div align="center">
-<img src="./assets/terminal.gif" width="560"/>
+<img src="./assets/kirokaze.gif" width="560"/>
 </div>
 
