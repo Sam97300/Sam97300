@@ -4,10 +4,6 @@
 
 <br/>
 
-<div align="center">
-<img src="./assets/terminal.gif" width="620" alt="self-generated terminal boot + neofetch animation"/>
-</div>
-
 <br/>
 
 ```text
