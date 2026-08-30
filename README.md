@@ -1,8 +1,6 @@
 <div align="center">
-<img src="./assets/Desktop.gif" width="560" alt="desk scene, an afternoon repose"/>
+<img src="./assets/stuff.gif" width="560" alt="desk scene, an afternoon repose"/>
 </div>
-
-<br/>
 
 <br/>
 
@@ -83,3 +81,7 @@ AUTHOR
 
 SAM(1)                          2026                          SAM(1)
 ```
+<div align="center">
+<img src="./assets/kirokaze.gif" width="560"/>
+</div>
+
